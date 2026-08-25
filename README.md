@@ -1,5 +1,7 @@
 # BullSignal — system architecture & reliability case
 
+[![BullSignal portfolio checks](https://github.com/blsoo/bullsignal-system-architecture/actions/workflows/portfolio-checks.yml/badge.svg)](https://github.com/blsoo/bullsignal-system-architecture/actions/workflows/portfolio-checks.yml)
+
 **System analysis · Integration architecture · Reliability · Monitoring · Deployment safety**
 
 BullSignal is a larger engineering project that combines web/backend flows, Telegram UX, external APIs, background processing, monitoring and isolated analytics research.
@@ -78,6 +80,12 @@ flowchart TD
 ```
 
 The central idea is simple: **a successful function call is not enough evidence that the system is healthy**.
+
+## Live roadmap
+
+- [Issue #1 — SLI/SLO catalogue](https://github.com/blsoo/bullsignal-system-architecture/issues/1)
+- [Issue #2 — contract-level reliability tests](https://github.com/blsoo/bullsignal-system-architecture/issues/2)
+- [Issue #3 — unified audit evidence model](https://github.com/blsoo/bullsignal-system-architecture/issues/3)
 
 ## Related flagship projects
 
