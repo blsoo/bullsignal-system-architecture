@@ -4,6 +4,8 @@ The public repository is intentionally documentation/architecture-heavy. Next st
 
 ## Next 1 — SLI/SLO catalogue
 
+Tracked in [Issue #1](https://github.com/blsoo/bullsignal-system-architecture/issues/1).
+
 Define public-safe service indicators for:
 
 - freshness-sensitive data;
@@ -16,25 +18,15 @@ The goal is to show how reliability requirements become measurable operational s
 
 ## Next 2 — Contract test matrix
 
-Add a table of boundary-level tests for:
+Tracked in [Issue #2](https://github.com/blsoo/bullsignal-system-architecture/issues/2).
 
-- same event delivered twice;
-- stale data crossing threshold;
-- dependency timeout with previous cache present;
-- expired confirmation;
-- baseline conflict;
-- verification failure and recovery.
+Add boundary-level tests for duplicate delivery, stale/missing data, dependency failures, expired confirmation, baseline conflict and failed verification/recovery.
 
 ## Next 3 — Unified audit-event model
 
-Define a common conceptual evidence model for:
+Tracked in [Issue #3](https://github.com/blsoo/bullsignal-system-architecture/issues/3).
 
-- user critical operations;
-- background processing;
-- incidents;
-- deployment/recovery actions.
-
-The model must preserve the difference between **request**, **decision**, **execution** and **verification**.
+Define a common conceptual evidence model for user critical operations, background processing, incidents and deployment/recovery actions while preserving the difference between **request**, **decision**, **execution** and **verification**.
 
 ## What will stay private
 
@@ -44,4 +36,4 @@ The model must preserve the difference between **request**, **decision**, **exec
 - private datasets;
 - proprietary analytics/trading rules.
 
-Open GitHub Issues are used for the concrete roadmap so the repository has a real next-step workflow instead of manufactured history.
+The Issues are real next steps; the repository does not manufacture old history to look larger than it is.
